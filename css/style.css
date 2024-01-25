@@ -13,8 +13,8 @@
     box-sizing: border-box;
 }
 main{
-    max-width: 400px;
-    margin: 0 auto;
+  max-width: 500px;
+  margin: 0 auto;
 }
 header{
     display: flex;
@@ -27,7 +27,7 @@ header{
     box-shadow:0 2px 10px rgba(0, 0, 0, 0.293) ;
     left: 0;
     top: 0;
-    padding: 0 30px;
+    padding: 0 40px;
     z-index: 100;
 }
 header img{
@@ -140,7 +140,7 @@ header img{
     margin-top: 10px;
   }
   .row img{
-    width: 140px;
+    width: 30%;
   }
   .vpic{
     display: flex;
@@ -154,7 +154,7 @@ header img{
     margin-top: 20px;
   }
   .vpic img{
-    width: 70px;
+    width: 15%;
   }
   .menuline{
     display: flex;
@@ -332,6 +332,7 @@ header img{
     justify-content: center;
     position: relative;
     z-index: 20;
+    margin-top: 10px;
   }
   .phonei{
     width: 70px;
