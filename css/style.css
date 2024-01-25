@@ -288,7 +288,7 @@ header img{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 1000px;
+    height: 2000px;
     margin-top: 90px;
   }
   .contact{
@@ -372,4 +372,78 @@ header img{
     position: relative;
     z-index: 20;
     margin-top: 150px;
+  }
+  .table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    width: 100%;
+    height: 700px;
+    margin-top: 130px;
+    border-radius: 5px;
+    padding: 0 20px;
+  }
+  .table h4{
+    color: var(--bblue);
+    font-size: 30px;
+    color: var(--p);
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+  }
+  .table input,
+  .table textarea,
+  .table select {
+    color: black;
+    font-size: 14px;
+    border: 1px solid var(--txtgray);
+    background-color: var(--white);
+    width: 100%;
+    height: 46px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-bottom: 15px;
+  }
+  .table textarea{
+    padding-top: 10px;
+    width: 100%;
+    color: black;
+    height: 150px;
+  }
+  textarea::placeholder{
+    color: black;
+  }
+  .table input:focus,
+  .table textarea:focus,
+  .table select:focus {
+    border-color: var(--red);
+  }
+  input::placeholder{
+    color: black;
+  }
+  select::placeholder{
+    color: var(--p);
+  }
+  .inputs{
+    margin-top: 20px;
+  }
+  .table button {
+    margin-top: -10px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #fb5849;
+    padding: 12px 25px;
+    width: 100%;
+    height: 50px;
+    box-shadow: none;
+    border: none;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 600;
+    transition: all .3s;
   }
