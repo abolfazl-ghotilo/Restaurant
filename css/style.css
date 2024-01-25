@@ -79,6 +79,10 @@ header img{
     font-weight: 700;
     font-family: 'Dancing Script', cursive;
   }
+  .sectionabout{
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+  }
   .inner-content h6{
     font-size: 15px;
     color: var(--white);
@@ -242,7 +246,7 @@ header img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 500px;
     border: 1px solid var(--p);
     border-radius: 5px;
@@ -473,82 +477,6 @@ header img{
     margin-top: 20px;
     text-align: center;
   }
-  #offers {
-    padding-top: 120px;
-  }
-  
-  #offers .section-heading {
-    margin-bottom: 70px;
-  }
-  
-  #offers .section-heading h6 {
-    padding-left: 0px;
-  }
-  
-  #offers .section-heading h6:before {
-    display: none;
-  }
-  
-  #offers .heading-tabs {
-    text-align: center;
-  }
-  
-  #offers .heading-tabs .main-dark-button {
-    text-align: right;
-  }
-  
-  #offers #tabs ul {
-    padding: 0;
-  }
-  #offers #tabs ul li {
-    display: inline-block;
-    margin: 0px 15px;
-  }
-  #offers #tabs ul li:last-child {
-    margin-right: 0px;
-  }
-  #offers #tabs ul li:first-child {
-    margin-left: 0px;
-  }
-  #offers #tabs ul li a {
-    text-transform: capitalize;
-    width: 100%;
-    display: inline-block;
-    font-size: 15px;
-    color: #2a2a2a;
-    font-weight: 600;
-    transition: all 0.3s;
-    text-align: center;
-  }
-  
-  #offers #tabs ul li a img {
-    display: block;
-    margin: 0 auto 15px auto;
-  }
-  #offers #tabs ul .ui-tabs-active a {
-    color: #fb5849;
-    position: relative;
-  }
-  #offers #tabs ul .ui-tabs-active span {
-    color: #1e1e1e;
-  }
-  #offers .tabs-content {
-    margin-top: 60px;
-    text-align: left;
-    display: inline-block;
-    transition: all 0.3s;
-  }
-  #offers .tabs-content .tab-item {
-    position: relative;
-    margin-bottom: 60px;
-  }
-  #offers .tabs-content img {
-    float: left;
-    width: 100px;
-    max-width: 100px;
-    margin-right: 20px;
-    border-radius: 5px;
-  }
   .meal{
     cursor: pointer;
     display: flex;
@@ -600,8 +528,16 @@ header img{
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
   }
-  .price {
-    border-radius: 10px;
+  .pricef {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    width: 80px;
+    height: 80px;
+    background-color: var(--red);
+    color: var(--white);
+    font-size: 30px;
+    border-radius: 5px;
   }
   .price h6{
     display: flex;
@@ -613,7 +549,7 @@ header img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     margin-top: 50px;
     background-color: var(--red);
     width: 100%;
@@ -628,7 +564,7 @@ header img{
   .platforms{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     margin-top: 50px;
   }
   footer p{
@@ -658,5 +594,40 @@ header img{
     }
     .humbermenu{
       display: none;
+    }
+    .sectionabout{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .iabout{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .vpic{
+      width: 800px;
+    }
+    .infoi{
+      width: 325px;
+    }
+    .row img{
+      width: 30%;
+    }
+    .products div{
+      min-width: 50%;
+      width: 50%;
+    }
+    .cooker{
+      width: 90%;
+      height: 500px;
+      border: 1px solid var(--p);
+      border-radius: 5px;
+      padding: 5px;
+    }
+    .contact{
+      padding: 0 40px;
     }
   }
