@@ -546,7 +546,7 @@ header img{
     display: flex;
     flex-direction: column;
     padding: 0 15px;
-    gap: 10px;
+    gap: 60px;
     margin-top: 40px;
   }
   .prod{
@@ -557,6 +557,16 @@ header img{
   .prod img{
     width: 20%;
     border-radius: 5px;
+  }
+  .resfood1{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .resfood2{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
   }
   .txtes{
     display: flex;
