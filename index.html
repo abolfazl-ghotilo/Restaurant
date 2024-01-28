@@ -9,20 +9,29 @@
     <title>Project</title> 
 </head>
 <body>
-        <header>
-            <img src="assets/images/klassy-logo.png">
+        <header id="top">
+            <a href="index.html" class="logo">
+                <img src="assets/images/klassy-logo.png">
+            </a>
             <div class="humbermenu">
                 <hr class="hr1">
                 <hr class="hr2">
                 <hr class="hr1">
             </div>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Menu</li>
-                <li>Chefs</li>
-                <li>Features</li>
-                <li>Contact Us</li>
+                <li><a href="index.html" class="tab">Home</a></li>
+                <li><a href="#about" class="tab">About</a></li>
+                <li><a href="#menu" class="tab">Menu</a></li>
+                <li><a href="#chefs" class="tab">Chefs</a></li>
+                <li class="nav-link" id="feature-menu"><a href="#"> Features</a> 
+                    <ul id="feature-sub-menu">
+                        <li class="sub"><a href=#>Features Page 1</a></li>
+                        <li class="sub"><a href=#>Features Page 2</a></li>
+                        <li class="sub"><a href=#>Features Page 3</a></li>
+                        <li class="sub"><a href="#">Feature Page 4</a></li>
+                    </ul>
+                </li>
+                <li><a href="#reservation" class="tab">Contact Us</a></li>
             </ul>
         </header>
         <section class="firstsection">
@@ -35,7 +44,7 @@
             </div>
                 <div class="img-fill"></div>
             </section>
-                <section class="sectionabout">
+                <section class="sectionabout" id="about">
                     <div class="iabout">
                         <div class="Line">
                             <img src="assets/images/Line 1.png">
@@ -43,7 +52,7 @@
                         </div>
                         <div class="infoi">
                             <h1 class="caption">We Leave A Delicious Memory For You</h1>
-                            <p>Klassy Cafe is one of the best <a href="https://templatemo.com/tag/restaurant" target="_blank" rel="sponsored">restaurant HTML templates</a> with Bootstrap v4.5.2 CSS framework. You can download and feel free to use this website template layout for your restaurant business. You are allowed to use this template for commercial purposes. <br><br>You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please contact us for more information.</p>
+                            <p>Klassy Cafe is one of the best <a href="https://templatemo.com/tag/restaurant" class="la" target="_blank" rel="sponsored">restaurant HTML templates</a> with Bootstrap v4.5.2 CSS framework. You can download and feel free to use this website template layout for your restaurant business. You are allowed to use this template for commercial purposes. <br><br>You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please contact us for more information.</p>
                         </div>
                         <div class="row">
                             <img src="assets/images/about-thumb-01.jpg">
@@ -52,10 +61,12 @@
                         </div>
                     </div>
                         <div class="vpic">
-                            <img src="assets/images/player.png">
+                            <svg class="player" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M19.6432 12.848C20.2699 12.4564 20.2699 11.5437 19.6432 11.152L6.53 2.95627C5.86395 2.53999 5 3.01884 5 3.80427V20.1958C5 20.9812 5.86395 21.4601 6.53 21.0438L19.6432 12.848Z" fill="white"/>
+                              </svg>                              
                         </div>
                 </section>       
-        <section class="sectionmenu">
+        <section class="sectionmenu" id="menu">
             <div class="menusec">
                 <div class="menuline">
                     <img src="assets/images/Line 1.png">
@@ -140,7 +151,7 @@
                         <h1 class="price">10$</h1>
                     </div>
                 </div>
-                <div class="chefsd">
+                <div class="chefsd" id="chefs">
                     <h1 class="subtitles">our chefs</h1>
                     <h1 class="caption">We offer the best ingredients for you</h1>
                 </div>
@@ -163,7 +174,7 @@
                 </div>
         </section>
         <section class="contact">
-            <div class="cres">
+            <div class="cres" id="reservation">
                 <div class="rescontect">
                     <div class="capres">
                         <div class="contactline">
@@ -192,7 +203,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="table">
+                <div class="table" >
                     <h4>Table Reservation</h4>
                     <div class="inputs">
                         <div class="inpres">
@@ -227,7 +238,7 @@
                             </div>
                         </div>
                         <textarea name="message" rows="6" id="message" type="text" placeholder="Message"></textarea>
-                        <button type="submit" id="form-submit" class="main-button-icon">Make A Reservation</button>
+                        <button class="tbtn" type="submit" id="form-submit" class="main-button-icon">Make A Reservation</button>
                     </div>
                 </div>
             </div>
