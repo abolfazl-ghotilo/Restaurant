@@ -666,6 +666,7 @@ header img{
       color: var(--p);
       padding: 10px;
       transition: 300ms all linear;
+      cursor: pointer;
     }
     .Features:hover{
       color: #fb5849;
